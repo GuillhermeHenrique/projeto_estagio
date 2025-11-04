@@ -7,7 +7,7 @@
 
 body {
   background-color: #f7f7f7;
-  color: #111;
+  color: #333;
 }
 
 /* NAVBAR */
@@ -21,4 +21,19 @@ body {
 
 #navbar img {
   max-height: 6vh;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  padding: 1.5em 10%;
+}
+
+header img {
+  max-width: 100%;
+  border-radius: 10px;
 }
