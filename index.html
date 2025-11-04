@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/logo-azul.png" type="image/png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Layout Brasa Tecnologia</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- JS -->
+    <script src="js/scripts.js" defer></script>
     <!-- ICONS -->
     <link
       rel="stylesheet"
@@ -16,8 +21,13 @@
       <img src="img/logo-azul.png" alt="logo" />
     </nav>
     <header>
-      <img src="img/notebook-oculos.jpg" alt="notebook" />
-      <h1>
+      <img
+        src="img/notebook-oculos.jpg"
+        alt="notebook"
+        data-aos="fade-right"
+        data-aos-duration="700"
+      />
+      <h1 data-aos="fade-right" data-aos-duration="700">
         A Brasa Tecnologia é uma empresa brasileira de desenvolvimento de
         soluções digitais customizadas.
       </h1>
@@ -56,24 +66,24 @@
         </div>
       </div>
       <div class="facts-container">
-        <div class="fact">
+        <div class="fact" data-aos="fade-right" data-aos-duration="700">
           <div class="number"><h1>1</h1></div>
           <p>A Brasa Tecnologia foi fundada em 2023, em São Paulo.</p>
         </div>
-        <div class="fact">
+        <div class="fact" data-aos="fade-right" data-aos-duration="700">
           <div class="number"><h1>2</h1></div>
           <p>
             Atua no desenvolvimento de sites, sistemas web e aplicativos móveis.
           </p>
         </div>
-        <div class="fact">
+        <div class="fact" data-aos="fade-right" data-aos-duration="700">
           <div class="number"><h1>3</h1></div>
           <p>
             Tem como principal foco criar soluções digitais personalizadas para
             empresas.
           </p>
         </div>
-        <div class="fact">
+        <div class="fact" data-aos="fade-right" data-aos-duration="700">
           <div class="number"><h1>4</h1></div>
           <p>
             Seu principal CNAE é desenvolvimento e licenciamento de software
@@ -82,7 +92,7 @@
         </div>
       </div>
       <div class="services-container">
-        <div class="service">
+        <div class="service" data-aos="fade-right" data-aos-duration="700">
           <div class="icon">
             <i class="fa-solid fa-globe"></i>
           </div>
@@ -94,7 +104,7 @@
             </p>
           </div>
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-right" data-aos-duration="700">
           <div class="icon">
             <i class="fa-solid fa-cart-shopping"></i>
           </div>
@@ -106,7 +116,7 @@
             </p>
           </div>
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-right" data-aos-duration="700">
           <div class="icon">
             <i class="fa-solid fa-gears"></i>
           </div>
@@ -119,7 +129,7 @@
             </p>
           </div>
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-right" data-aos-duration="700">
           <div class="icon">
             <i class="fa-solid fa-mobile-screen-button"></i>
           </div>
@@ -136,7 +146,7 @@
         <div class="title">
           <h2>Tire as suas dúvidas</h2>
         </div>
-        <div class="support">
+        <div class="support" data-aos="fade-top" data-aos-duration="700">
           <div class="doubt-section">
             <p>A Brasa Tecnologia desenvolve sites personalizados?</p>
             <i class="fa-solid fa-plus"></i>
@@ -148,7 +158,7 @@
             </p>
           </div>
         </div>
-        <div class="support">
+        <div class="support" data-aos="fade-top" data-aos-duration="700">
           <div class="doubt-section">
             <p>Ela oferece manutenção após o desenvolvimento?</p>
             <i class="fa-solid fa-plus"></i>
@@ -160,7 +170,7 @@
             </p>
           </div>
         </div>
-        <div class="support">
+        <div class="support" data-aos="fade-top" data-aos-duration="700">
           <div class="doubt-section">
             <p>A empresa trabalha apenas com sites?</p>
             <i class="fa-solid fa-plus"></i>
@@ -171,7 +181,7 @@
             </p>
           </div>
         </div>
-        <div class="support">
+        <div class="support" data-aos="fade-top" data-aos-duration="700">
           <div class="doubt-section">
             <p>Atende clientes fora de São Paulo?</p>
             <i class="fa-solid fa-plus"></i>
@@ -212,5 +222,9 @@
         <p>Guilherme Henrique, 2025. Todos os direitos reservados.</p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

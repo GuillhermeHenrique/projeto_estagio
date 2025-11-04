@@ -21,6 +21,10 @@ p {
   padding: 1em;
   background-color: #fff;
   box-shadow: 0 0 15px #00000021;
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  left: 0;
 }
 
 #navbar img {
@@ -35,6 +39,7 @@ header {
   justify-content: center;
   gap: 1em;
   padding: 3em 10%;
+  padding-top: 18vh;
 }
 
 header img {
@@ -267,5 +272,17 @@ footer .rights span {
   footer .content {
     flex-direction: column;
     gap: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    padding-top: 20vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    padding-top: 23vh;
   }
 }
