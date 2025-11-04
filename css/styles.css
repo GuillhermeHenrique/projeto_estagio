@@ -10,6 +10,10 @@ body {
   color: #333;
 }
 
+p {
+  font-weight: 500;
+}
+
 /* NAVBAR */
 #navbar {
   display: flex;
@@ -30,10 +34,140 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 1em;
-  padding: 1.5em 10%;
+  padding: 3em 10%;
 }
 
 header img {
   max-width: 100%;
   border-radius: 10px;
+}
+
+/* MAIN */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0 10%;
+  margin-bottom: 10vh;
+}
+
+.about-container .content {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.about-container .content .text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.about-container .content img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.facts-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  padding: 10vh 10%;
+  background-color: #222;
+  color: #eee;
+}
+
+.fact {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.fact img {
+  width: 100%;
+  height: 50vh;
+  /* border-radius: 10px; */
+  object-fit: cover;
+}
+
+.fact p {
+  text-align: center;
+}
+
+.services-container {
+  padding: 10vh 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.service {
+  box-shadow: 0 0 5px #00000021;
+  width: 25%;
+  border-bottom: 1px solid #222;
+  padding-bottom: 1em;
+  background-color: #fff;
+}
+
+.service .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+  background-color: #222;
+  color: #eee;
+  border-radius: 10px;
+  font-size: 35px;
+}
+
+.service .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.support-container {
+  padding: 0 10%;
+  padding-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.support-container .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.support {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.support .doubt-section {
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.support .response-section {
+  background-color: #eee;
+  padding: 1.5em;
+  display: none;
 }
