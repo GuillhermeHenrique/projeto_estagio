@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #111;
+}
+
+/* NAVBAR */
+#navbar {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 0 15px #00000021;
+}
+
+#navbar img {
+  max-height: 6vh;
+}
