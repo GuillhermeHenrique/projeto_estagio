@@ -90,11 +90,14 @@ header img {
   cursor: pointer;
 }
 
-.fact img {
+.fact .number {
   width: 100%;
   height: 50vh;
-  /* border-radius: 10px; */
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  font-size: 70px;
 }
 
 .fact p {
@@ -121,7 +124,7 @@ header img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5em;
+  padding: 2em;
   background-color: #222;
   color: #eee;
   border-radius: 10px;
@@ -195,7 +198,7 @@ footer .content .contacts .contact {
   display: flex;
   align-items: center;
   text-align: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 footer .content .icons a {
@@ -219,4 +222,50 @@ footer .rights {
 
 footer .rights span {
   margin-right: 3px;
+}
+
+@media screen and (max-width: 800px) {
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
+
+  .about-container .content {
+    flex-direction: column;
+  }
+
+  .about-container .content .text,
+  .about-container .content img {
+    width: 100%;
+  }
+
+  .facts-container {
+    flex-direction: column;
+  }
+
+  .fact {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+
+  .services-container {
+    flex-direction: column;
+  }
+
+  .service {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+
+  .support .doubt-section p {
+    padding-right: 1em;
+  }
+
+  footer .content {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
